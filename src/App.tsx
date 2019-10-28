@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
+import { PanjsData, getPanjsData } from './services';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export default () => {
+  const [data, setData] = useState<PanjsData>();
 
-export default App;
+  useEffect(() => {
+    getPanjsData().then(data => {
+      setData(data);
+    });
+  }, []);
+
+  return data ? (
+    <>
+      <Header items={data.navbarItems} />
+      <Content />
+      <Footer />
+    </>
+  ) : null;
+};
