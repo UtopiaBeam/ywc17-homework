@@ -4,6 +4,7 @@ import Content from './components/Content';
 import Footer from './components/Footer';
 import { PanjsData, getPanjsData } from './services';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
 
 export default () => {
   const [data, setData] = useState<PanjsData>();
