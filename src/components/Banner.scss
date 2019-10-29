@@ -1,0 +1,24 @@
+#banner {
+  height: 221px;
+}
+
+#left-banner {
+  background: url(https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-left-s.png)
+    no-repeat;
+  background-size: cover;
+}
+
+#center-banner {
+  background: url(https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-center-s.png)
+    no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#right-banner {
+  background: url(https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-right-s.png)
+    no-repeat;
+  background-size: cover;
+}
