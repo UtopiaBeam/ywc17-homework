@@ -12,8 +12,7 @@ export default () => {
           <img
             alt="banner"
             src="https://www.xn--b3caa1e2a7e2b0h2be.com/img/logo/banner.png"
-            width={110}
-            height={131}
+            id="logo"
           />
         </Col>
         <Col id="right-banner" />
