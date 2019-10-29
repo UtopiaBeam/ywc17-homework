@@ -18,7 +18,7 @@ export default () => {
   return data ? (
     <>
       <Header items={data.navbarItems} />
-      <Content />
+      <Content data={data} />
       <Footer />
     </>
   ) : null;
