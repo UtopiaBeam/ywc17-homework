@@ -16,15 +16,15 @@ export default ({ items }: Props) => {
   ));
   return (
     <>
-      <Navbar expand="sm" className="navbar">
-        <Navbar.Brand id="brand">
+      <Navbar expand="sm" fixed="top" bg="white" className="navbar">
+        <div id="brand">
           <img
             alt="logo"
             width="35px"
             height="48px"
             src="https://www.xn--b3caa1e2a7e2b0h2be.com/img/logo/footer.png"
           />
-        </Navbar.Brand>
+        </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">{navbarItems}</Navbar.Collapse>
       </Navbar>

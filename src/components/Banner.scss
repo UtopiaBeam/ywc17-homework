@@ -1,5 +1,6 @@
 #banner {
   height: 221px;
+  margin-top: 64px;
 }
 
 #left-banner {
@@ -31,6 +32,7 @@
 @media only screen and (min-width: 420px) {
   #banner {
     height: 350px;
+    margin-top: 58px;
   }
 
   #left-banner {
