@@ -16,7 +16,7 @@ export default ({ items }: Props) => {
   ));
   return (
     <>
-      <Navbar expand="lg" className="navbar">
+      <Navbar expand="sm" className="navbar">
         <Navbar.Brand id="brand">
           <img
             alt="logo"
