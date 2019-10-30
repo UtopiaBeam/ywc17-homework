@@ -3,11 +3,6 @@
   padding: 0 15px;
 }
 
-.nav-wrapper {
-  text-align: center;
-  padding: 0 30px;
-}
-
 .nowrap {
   white-space: nowrap;
 }
@@ -16,11 +11,4 @@ img {
   vertical-align: middle;
   border-style: none;
   max-width: 100%;
-}
-
-@media only screen and (min-width: 420px) {
-  .nav-wrapper {
-    margin: 150px !important;
-    padding: 0 15px !important;
-  }
 }
