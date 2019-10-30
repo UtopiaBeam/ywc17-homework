@@ -1,6 +1,5 @@
 .tat-wrapper {
   text-align: center;
-  padding: 0 30px;
 }
 
 .ktc-wrapper {
@@ -11,15 +10,13 @@
   }
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 577px) {
   #link-wrapper {
     margin: 150px;
-    padding: 0 15px;
   }
 
   .ktc-wrapper {
     margin: 100px;
-    padding: 0 15px;
     img {
       width: 102px;
 
