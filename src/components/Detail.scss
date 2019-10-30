@@ -1,13 +1,14 @@
-#title {
+#detail-wrapper {
+  width: 100%;
+  margin: 70px auto;
+  padding: 0 15px;
+  text-align: left;
+}
+
+#detail-title {
   color: #e6332a;
   font-size: 24px;
   font-weight: bold;
-}
-
-#wrapper {
-  margin: 70px 0;
-  padding: 0 30px;
-  text-align: left;
 }
 
 .content {
@@ -23,7 +24,7 @@
 }
 
 @media only screen and (min-width: 420px) {
-  #title {
+  #detail-title {
     font-size: 36px;
   }
 

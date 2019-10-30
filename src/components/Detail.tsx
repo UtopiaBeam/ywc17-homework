@@ -10,8 +10,8 @@ interface Props {
 export default ({ data }: Props) => {
   return (
     <>
-      <Container id="wrapper">
-        <div id="title">
+      <Container id="detail-wrapper">
+        <div id="detail-title">
           มาตรการส่งเสริมการบริโภค
           <br />
           ในประเทศ <span className="nowrap">"ชิมช้อปใช้"</span>

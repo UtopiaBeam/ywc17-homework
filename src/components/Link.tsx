@@ -6,7 +6,7 @@ import './Link.scss';
 
 export default () => {
   return (
-    <>
+    <div id="link-wrapper">
       <Row className="tat-wrapper">
         <Col md={4} xs={12}>
           <a href="tel:021111144">
@@ -56,6 +56,6 @@ export default () => {
           </a>
         </Col>
       </Row>
-    </>
+    </div>
   );
 };
