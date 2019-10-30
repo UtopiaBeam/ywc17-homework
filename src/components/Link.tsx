@@ -24,7 +24,7 @@ export default () => {
           </a>
         </Col>
       </Row>
-      <Row className="ktc-wrapper justify-content-around flex-wrap">
+      <Row className="ktc-wrapper">
         <Col md={2} xs={4}>
           <a href="https://www.mof.go.th/th/home" target="_blank" rel="noopener noreferrer">
             <img alt="MOF" src={`${BASE_URL}/img/brand-logo/MOF.png`} />

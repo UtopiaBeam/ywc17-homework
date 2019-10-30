@@ -13,11 +13,20 @@
 
 @media only screen and (min-width: 420px) {
   #link-wrapper {
-    margin: 150px !important;
-    padding: 0 15px !important;
+    margin: 150px;
+    padding: 0 15px;
   }
 
-  .ktc-wrapper img {
-    width: 102px;
+  .ktc-wrapper {
+    margin: 100px;
+    padding: 0 15px;
+    img {
+      width: 102px;
+
+      &:hover {
+        transform: scale(1.2);
+        transition: all 0.55s ease-in-out;
+      }
+    }
   }
 }
