@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://www.xn--b3caa1e2a7e2b0h2be.com';
