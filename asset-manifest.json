@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/UtopiaBeam/ywc17-homework/static/css/main.463b3360.chunk.css",
-    "main.js": "/UtopiaBeam/ywc17-homework/static/js/main.abb5eea3.chunk.js",
-    "main.js.map": "/UtopiaBeam/ywc17-homework/static/js/main.abb5eea3.chunk.js.map",
-    "runtime-main.js": "/UtopiaBeam/ywc17-homework/static/js/runtime-main.d6734368.js",
-    "runtime-main.js.map": "/UtopiaBeam/ywc17-homework/static/js/runtime-main.d6734368.js.map",
-    "static/css/2.0624914a.chunk.css": "/UtopiaBeam/ywc17-homework/static/css/2.0624914a.chunk.css",
-    "static/js/2.0c174e8a.chunk.js": "/UtopiaBeam/ywc17-homework/static/js/2.0c174e8a.chunk.js",
-    "static/js/2.0c174e8a.chunk.js.map": "/UtopiaBeam/ywc17-homework/static/js/2.0c174e8a.chunk.js.map",
-    "index.html": "/UtopiaBeam/ywc17-homework/index.html",
-    "precache-manifest.b7d8994d3d324db86989433f80f7c840.js": "/UtopiaBeam/ywc17-homework/precache-manifest.b7d8994d3d324db86989433f80f7c840.js",
-    "service-worker.js": "/UtopiaBeam/ywc17-homework/service-worker.js",
-    "static/css/2.0624914a.chunk.css.map": "/UtopiaBeam/ywc17-homework/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.463b3360.chunk.css.map": "/UtopiaBeam/ywc17-homework/static/css/main.463b3360.chunk.css.map",
-    "static/media/App.scss": "/UtopiaBeam/ywc17-homework/static/media/TATSanaSuksa-Regular.f51f1b81.woff2"
+    "main.css": "/ywc17-homework/static/css/main.034f84ff.chunk.css",
+    "main.js": "/ywc17-homework/static/js/main.7fb518f3.chunk.js",
+    "main.js.map": "/ywc17-homework/static/js/main.7fb518f3.chunk.js.map",
+    "runtime-main.js": "/ywc17-homework/static/js/runtime-main.f059a3f9.js",
+    "runtime-main.js.map": "/ywc17-homework/static/js/runtime-main.f059a3f9.js.map",
+    "static/css/2.0624914a.chunk.css": "/ywc17-homework/static/css/2.0624914a.chunk.css",
+    "static/js/2.0c174e8a.chunk.js": "/ywc17-homework/static/js/2.0c174e8a.chunk.js",
+    "static/js/2.0c174e8a.chunk.js.map": "/ywc17-homework/static/js/2.0c174e8a.chunk.js.map",
+    "index.html": "/ywc17-homework/index.html",
+    "precache-manifest.ef1f2deac4e6e6c4a4194ff475332ffc.js": "/ywc17-homework/precache-manifest.ef1f2deac4e6e6c4a4194ff475332ffc.js",
+    "service-worker.js": "/ywc17-homework/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/ywc17-homework/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.034f84ff.chunk.css.map": "/ywc17-homework/static/css/main.034f84ff.chunk.css.map",
+    "static/media/App.scss": "/ywc17-homework/static/media/TATSanaSuksa-Regular.f51f1b81.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.d6734368.js",
+    "static/js/runtime-main.f059a3f9.js",
     "static/css/2.0624914a.chunk.css",
     "static/js/2.0c174e8a.chunk.js",
-    "static/css/main.463b3360.chunk.css",
-    "static/js/main.abb5eea3.chunk.js"
+    "static/css/main.034f84ff.chunk.css",
+    "static/js/main.7fb518f3.chunk.js"
   ]
 }
