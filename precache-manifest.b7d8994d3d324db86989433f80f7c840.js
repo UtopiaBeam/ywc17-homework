@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0456b2b7c5d6c1eec77e8700c82dffae",
+    "revision": "40cb8504fe0e41c0e2a03d45179453b7",
     "url": "/UtopiaBeam/ywc17-homework/index.html"
   },
   {

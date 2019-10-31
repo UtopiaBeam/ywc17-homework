@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/UtopiaBeam/ywc17-homework/precache-manifest.6676c5d469d2027a732fbec55a39b3d3.js"
+  "/UtopiaBeam/ywc17-homework/precache-manifest.b7d8994d3d324db86989433f80f7c840.js"
 );
 
 self.addEventListener('message', (event) => {
