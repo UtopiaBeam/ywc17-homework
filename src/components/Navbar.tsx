@@ -16,14 +16,12 @@ export default ({ items }: Props) => {
     </Nav.Link>
   ));
   return (
-    <>
-      <Navbar expand="sm" fixed="top" bg="white" className="navbar">
-        <div id="brand">
-          <img alt="logo" width="35px" height="48px" src={`${BASE_URL}/img/logo/footer.png`} />
-        </div>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">{navbarItems}</Navbar.Collapse>
-      </Navbar>
-    </>
+    <Navbar expand="sm" fixed="top" bg="white" className="navbar-wrapper">
+      <div id="brand">
+        <img alt="logo" width="35px" height="48px" src={`${BASE_URL}/img/logo/footer.png`} />
+      </div>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">{navbarItems}</Navbar.Collapse>
+    </Navbar>
   );
 };
