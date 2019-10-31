@@ -1,0 +1,46 @@
+.footer-1-wrapper {
+  width: 100%;
+  padding: 44px 30px;
+  background-color: #fafafa;
+
+  .footer-1 {
+    text-align: left;
+    font-family: TATSanaSuksa;
+    font-size: 14px;
+    color: #333333;
+
+    img {
+      width: 148px;
+    }
+
+    &-head {
+      font-weight: bold;
+      color: #e6332a;
+      font-size: 16px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #333333;
+    }
+  }
+}
+
+@media only screen and (min-width: 577px) {
+  .footer-1-wrapper {
+    padding: 30px;
+
+    .footer-1 {
+      max-width: 1140px;
+      margin: 0 auto;
+
+      img {
+        width: 108px;
+      }
+
+      &-head {
+        margin-top: 24px;
+      }
+    }
+  }
+}
