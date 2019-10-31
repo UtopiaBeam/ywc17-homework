@@ -2,8 +2,9 @@
   width: 100%;
   padding: 44px 30px;
   background-color: #fafafa;
-
+  
   .footer-1 {
+    padding: 0 30px;
     text-align: left;
     font-family: TATSanaSuksa;
     font-size: 14px;
@@ -17,6 +18,7 @@
       font-weight: bold;
       color: #e6332a;
       font-size: 16px;
+      margin: 15px 0 10px 0;
     }
 
     a {
@@ -28,8 +30,6 @@
 
 @media only screen and (min-width: 577px) {
   .footer-1-wrapper {
-    padding: 30px;
-
     .footer-1 {
       max-width: 1140px;
       margin: 0 auto;
