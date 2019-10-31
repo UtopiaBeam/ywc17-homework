@@ -1,0 +1,46 @@
+.footer-2 {
+  background-color: #213a8f;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 15px 0;
+
+  &-wrapper {
+    padding: 0 30px;
+  }
+
+  .copyright {
+    padding: 0.5rem 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  &-item {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 577px) {
+  .footer-2 {
+    font-size: 14px;
+    padding: 0;
+
+    &-wrapper {
+      margin: 0 auto;
+      padding: 0 15px;
+      max-width: 1140px;
+
+      .copyright {
+        padding: 0.5rem 1rem;
+        padding-left: 0;
+      }
+    }
+
+    &-item {
+      padding: 0.5rem 1rem;
+    }
+  }
+}
