@@ -42,8 +42,9 @@
     &::after {
       display: block;
       content: '';
-      padding: 0.5em 0;
-      border-bottom: 6px solid #213a8f;
+      padding-top: 0.5em;
+      margin-top: 0.5em;
+      border-top: 6px solid #213a8f;
       transform: scaleX(0);
       transition: color 0.3s ease-in-out;
       transition: transform 0.3s ease-in-out;
