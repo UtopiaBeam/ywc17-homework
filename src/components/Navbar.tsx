@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import { NavbarItem } from '../services';
 import { BASE_URL } from '../const';
 import './Navbar.scss';
+import ToggleButton from './ToggleButton';
 
 interface Props {
   items: NavbarItem[];
@@ -22,9 +23,11 @@ export default ({ items }: Props) => {
           <img alt="logo" width="35px" height="48px" src={`${BASE_URL}/img/logo/footer.png`} />
         </a>
       </div>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" id="toggle-button">
+        <ToggleButton />
+      </Navbar.Toggle>
       <Navbar.Collapse id="items">
-        <Nav className="bg-white">{navbarItems}</Nav>
+        <Nav>{navbarItems}</Nav>
       </Navbar.Collapse>
     </Navbar>
   );
