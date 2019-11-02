@@ -18,10 +18,14 @@ export default ({ items }: Props) => {
   return (
     <Navbar expand="sm" fixed="top" bg="white" className="navbar-wrapper">
       <div id="brand">
-        <img alt="logo" width="35px" height="48px" src={`${BASE_URL}/img/logo/footer.png`} />
+        <a href="#">
+          <img alt="logo" width="35px" height="48px" src={`${BASE_URL}/img/logo/footer.png`} />
+        </a>
       </div>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">{navbarItems}</Navbar.Collapse>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="items">
+        <Nav className="bg-white">{navbarItems}</Nav>
+      </Navbar.Collapse>
     </Navbar>
   );
 };
